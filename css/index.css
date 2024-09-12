@@ -1,0 +1,89 @@
+/* main */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11rem;
+}
+.info-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8rem;
+}
+.info {
+    width: 593px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.info__header {
+    font-family: var(--secundary-font-family);
+    font-size: 3.6rem;
+    line-height: 5.6rem;
+}
+.info__header--enfasis {
+    color: var(--secundary-color);
+}
+.info__text {
+    font-family: var(--primary-font-family);
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+}
+.photo-presentation {
+    max-width: 100%;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem;
+}
+.button-container__header {
+    width: 100%;
+    font-family: var(--secundary-font-family);
+    font-size: 2.4rem;
+    line-height: 4rem;
+    text-align: center;
+}
+.button {
+    width: 100%;
+    padding: 1.6rem 0;
+    border: var(--secundary-color) solid 0.2rem;
+    border-radius: 1.6rem;
+    color: var(--terciary-color);
+    font-family: var(--primary-font-family);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+.button:hover {
+    background: #272727;
+}
+.button__logo {
+    max-width: 10%;
+    height: fit-content;
+}
+@media (max-width: 1292px) {
+    main {
+        gap: 8rem;
+    }
+    .info {
+        text-align: center;
+    }
+}
+@media (max-width: 462px) {
+    html {
+        font-size: 8px;
+    }
+    .button-container {
+        max-width: 95%;
+    }
+}
