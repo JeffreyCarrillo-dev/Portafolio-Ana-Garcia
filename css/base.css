@@ -46,6 +46,7 @@ footer {
     text-align: center;
     padding: 2.4rem 0;
 }
+/*Responsive*/
 @media (max-width: 1292px) {
     .navegation-bar {
         margin: 4rem 0;

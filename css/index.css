@@ -71,6 +71,7 @@ main {
     max-width: 10%;
     height: fit-content;
 }
+/*Responsive*/
 @media (max-width: 1292px) {
     main {
         gap: 8rem;
