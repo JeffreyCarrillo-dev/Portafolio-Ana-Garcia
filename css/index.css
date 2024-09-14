@@ -73,17 +73,11 @@ main {
 }
 /*Responsive*/
 @media (max-width: 1292px) {
-    main {
-        gap: 8rem;
-    }
     .info {
         text-align: center;
     }
 }
 @media (max-width: 462px) {
-    html {
-        font-size: 8px;
-    }
     .button-container {
         max-width: 95%;
     }
